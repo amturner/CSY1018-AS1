@@ -1,0 +1,231 @@
+/* Reset 'margin' and 'padding' to 0 and change the Box Model to 'border-box'. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Define site-wide grid layout. */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4fr 2fr 26fr 1fr;
+}
+
+/* Site Header */
+.site-header {
+    order: 1;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+    grid-column: 1/4;
+}
+
+.site-header h1 {
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.site-header .search-box {
+    justify-self: end;
+    align-self: center;
+    margin-right: 1em;
+}
+
+.site-header .search-box input {
+    grid-column: 3/4;
+    width: 250px;
+    height: 25px;
+    border: 2px solid black;
+    padding: 0.5em;
+}
+
+.site-header .search-box i {
+    margin-right: 0.2em;
+    font-size: 1em;
+}
+
+/* Navigation */
+.site-nav {
+    display: grid;
+    order: 2;
+    grid-column: 1/4;
+    background-color: grey;
+    overflow: hidden;
+}
+
+.site-nav ul {
+    list-style: none;
+    justify-self: center;
+}
+
+.site-nav ul li {
+    float: left;
+    /*background-color: blue;*/
+    padding: 1em;
+    border-right: 2px solid black;
+}
+
+.site-nav ul li:last-child { 
+    border-right: none;
+}
+
+.site-nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.site-nav ul li a:hover {
+    font-weight: bold;
+}
+
+.site-nav ul li a.current-page {
+    font-weight: bold;
+}
+
+/* Main */
+.site-main {
+    order: 3;
+    grid-column: 1/4;
+    background-color: beige;
+}
+
+/* Cards */
+
+.card-header {
+    margin: 0.5em 0.5em;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-wrapper .card {
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 0.75em;
+    margin: 0.5em;
+    width: 100%;
+}
+
+.card-wrapper .card img {
+    max-width: 100%;
+}
+
+.card-wrapper .card h2 {
+    margin-top: 0.5em;
+}
+
+.card-wrapper .card p {
+    line-height: 1.25em;
+    margin-top: 0.5em;
+}
+
+.card-wrapper .card .button {
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 2px solid black;
+    transform: rotate(50deg);
+}
+
+.card-wrapper .card .button:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+
+/* Card Grid */
+/* .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr 1fr;
+    grid-gap: 1.2em;
+    margin: 0 1em 1.5em;
+    background-color: blue;
+}
+/* Card Grid Rows
+.card-grid .row-1 {
+    grid-row: 1;
+}
+
+.card-grid .row-2 {
+    grid-row: 2;
+}
+
+.card-grid .row-3 {
+    grid-row: 3;
+}
+
+.card-grid .row-4 {
+    grid-row: 4;
+}
+/* Card Header
+.card-grid .card-header {
+    grid-column: 1/4;
+    /* background-color: pink;
+    align-self: center;
+    background-color: green; 
+}
+
+.card-grid .card {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 0.75em;
+    justify-content: center;
+}
+
+.card-grid .card img {
+    order: 1;
+    /* width: 15.75em;
+    width: auto;
+    height: 9.375em;
+    align-self: center;
+}
+
+.card-grid .card h2 {
+    order: 2;
+    align-self: center;
+    margin-top: 0.5em
+}
+
+.card-grid .card p {
+    order: 3;
+    margin: 1em 0;
+}
+
+.card-grid .card .button {
+    order: 4;
+    background-color: black;
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    padding: 0.75em;
+    border-radius: 0.5em;
+    width: 150px;
+    text-align: center;
+    margin: 0.25em 0;
+    transition: 250ms;
+}
+
+.card-grid .card .button:hover { 
+    color: black;
+    background-color: white;
+}
+*/
+
+
+.site-footer {
+    order: 4;
+    grid-column: 1/4;
+    background-color: grey;
+}

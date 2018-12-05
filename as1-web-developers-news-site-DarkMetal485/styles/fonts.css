@@ -1,0 +1,17 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+@font-face {
+    /* Cantebury font from https://www.1001fonts.com/canterbury-font.html. */
+    font-family: Canterbury;
+    src: url('../fonts/Canterbury.ttf');
+}
+
+/* Font Styling */
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.site-header h1 {
+    font-family: 'Canterbury', 'Times New Roman', Times, serif;
+}
