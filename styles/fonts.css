@@ -1,5 +1,6 @@
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 @font-face {
     /* Cantebury font from https://www.1001fonts.com/canterbury-font.html. */
@@ -14,4 +15,8 @@
 
 .site-header h1 {
     font-family: 'Canterbury', 'Times New Roman', Times, serif;
+}
+
+.glossary-table .description code, .glossary-table .description .code-block {
+    font-family: 'Source Code Pro', monospace;
 }

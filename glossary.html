@@ -28,6 +28,7 @@
         </nav>
         <main class="site-main">
             <h2>Glossary</h2>
+            
             <table class="glossary-table">
                 <thead>
                     <tr>
@@ -42,18 +43,67 @@
                         <td class="description">
                             <p>HyperText Markup Language (HTML) is a markup language that is used to 
                             create the structure of many of the websites you see on the web today.</p> 
-                            <p>HTML makes use of elements such as</p> 
+                            
+                            <p>For the basic structure of a website, HTML makes use of elements 
+                            such as <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> and 
+                            <code>&lt;body&gt;</code>. When describing content on a page, however,
+                            HTML also makes use of semantic elements such as <code>&lt;header&gt;</code>, 
+                            <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> and <code>&lt;footer&gt;</code></p> 
+                            
+                            <p>As an example of how HTML code is typically structured, the following code
+                            shows you how to make a basic web page with the text "Hello World!":</p>
+
+                            <div class="code-block">
+                                &lt;!DOCTYPE html&gt;<br>
+                                &lt;html&gt;<br>
+                                &#160;&#160;&#160;&#160;&lt;head&gt;<br>
+                                &#160;&#160;&#160;&#160;&lt;/head&gt;<br>
+                                &#160;&#160;&#160;&#160;&lt;body&gt;<br>
+                                &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;p&gt;Hello World!&lt;/p&gt;<br>
+                                &#160;&#160;&#160;&#160;&lt;/body&gt;<br> 
+                                &lt;/html&gt;
+                            </div>
+
+                            <p>With these elements, HTML can therefore essentially be thought of as 
+                            the skeleton of a web page.</p>
                         </td>
-                        <td class="source"><a href="#">Link</a></td>
+                        <td class="source"><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">Mozilla Developer Network</a></td>
                     </tr>
                     <tr>
                         <td class="term">CSS</td>
-                        <td class="description">Cascading Style Sheets</td>
-                        <td class="source"><a href="#">Link</a></td>
+                        <td class="description">
+                            <p>Cascading Style Sheets (CSS) is a stylesheet language. Whilst HTML can 
+                            be thought of as the skeleton of a web page, CSS can essentially be thought of
+                            as the skin of a web page.</p>
+
+                            <p>Unlike HTML code, which makes use of elements like <code>&lt;header&gt;</code>
+                            and <code>&lt;footer&gt;</code>, CSS code is instead made up of selectors, which
+                            in turn contain properties.</p>
+
+                            <p>As an example of how a typical CSS declartion is structured, the follow snippet
+                            of code shows you how you would make the background of a paragraph black, and the text
+                            white:<br></p>
+                            
+                            <div class="code-block">
+                                p {<br>
+                                &#160;&#160;&#160;&#160;background-color: black;<br>
+                                &#160;&#160;&#160;&#160;color: white;<br>
+                                }
+                            </div>
+                        </td>
+                        <td class="source"><a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS">Mozilla Developer Network</a></td>
                     </tr>
                     <tr>
                         <td class="term">JavaScript</td>
                         <td class="description">JavaScript</td>
+                        <td class="source"><a href="#">Link</a></td>
+                    </tr>
+                    <tr>
+                        <td class="term">Stylesheet</td>
+                        <td class="description">
+                            <p>A Stylesheet is a document that is made up of CSS code. Stylesheets usually
+                            come in the form of files that end with the .css extension.</p>
+                        </td>
                         <td class="source"><a href="#">Link</a></td>
                     </tr>
                 </tbody>
