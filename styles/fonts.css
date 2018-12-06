@@ -17,6 +17,6 @@
     font-family: 'Canterbury', 'Times New Roman', Times, serif;
 }
 
-.glossary-table .description code, .glossary-table .description .code-block {
+.glossary-table code, .glossary-table .code-block {
     font-family: 'Source Code Pro', monospace;
 }

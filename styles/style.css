@@ -262,61 +262,122 @@ body {
     grid-area: description;
 }
 
-/* Site Main - Glossary */
+/* Site Main - Glossary Table */
 .glossary-table {
-    align-self: center; 
-    border-collapse: collapse;
-    border-spacing: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+        "heading-1 heading-2 heading-3";
     width: 75%;
-    margin: 1em;
+    align-self: center;
+    margin-bottom: 1em;
 }
 
-.glossary-table thead {
+.glossary-table .heading {
     background-color: black;
     color: white;
+    font-weight: bold;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-.glossary-table tbody {
-    color: black;
-}
-
-.glossary-table tbody a {
-    text-decoration: none;
-}
-
-.glossary-table tbody a:hover {
-    text-decoration: underline;
-}
-
-.glossary-table th, .glossary-table td {
+.glossary-table .heading,
+.glossary-table .term,
+.glossary-table .definition,
+.glossary-table .source {
     border: 1px solid black;
     padding: 1em;
 }
 
-.glossary-table .term, .glossary-table .source {
-    text-align: center;
+.glossary-table .heading-1 {
+    grid-area: heading-1;
 }
 
-.glossary-table .description {
-    font-size: 0.8em;
+.glossary-table .heading-2 {
+    grid-area: heading-2;
+
+}
+.glossary-table .heading-3 {
+    grid-area: heading-3;
 }
 
-.glossary-table .description p:first-child {
+.glossary-table .heading-4 {
+    grid-area: heading-4;
+    display: none;
+}
+
+.glossary-table .heading-5 {
+    grid-area: heading-5;
+    display: none;
+}
+
+.glossary-table .heading-6 {
+    grid-area: heading-6;
+    display: none;
+}
+
+.glossary-table .heading-7 {
+    grid-area: heading-7;
+    display: none;
+}
+
+.glossary-table .heading-8 {
+    grid-area: heading-8;
+    display: none;
+}
+
+.glossary-table .heading-9 {
+    grid-area: heading-9;
+    display: none;
+}
+
+.glossary-table .heading-10 {
+    grid-area: heading-10;
+    display: none;
+}
+
+.glossary-table .heading-11 {
+    grid-area: heading-11;
+    display: none;
+}
+
+.glossary-table .heading-12 {
+    grid-area: heading-12;
+    display: none;
+}
+
+.glossary-table .term,
+.glossary-table .source {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+.glossary-table p:first-child {
     margin-top: 0;
 }
 
-.glossary-table .description p {
-    margin-top: 1em;
+.glossary-table p {
+    margin-top: 1em;   
 }
 
-.glossary-table .description code {
+.glossary-table .definition {
+    font-size: 0.8em;
+}
+
+.glossary-table code {
     background-color: black;
     color: white;
     border-radius: 0.25em;
     padding: 0.2em;
 }
 
-.glossary-table .description .code-block {
+.glossary-table .code-block {
     background-color: black;
     color: white;
     border-radius: 0.4em;
@@ -575,6 +636,43 @@ body {
         margin: 1em;
     }
 
+    /* Grid Glossary Table */
+    .glossary-table {
+        grid-template-areas: 
+            "heading-1"
+            "heading-2"
+            "heading-3"
+            "heading-4"
+            "heading-5"
+            "heading-6"
+            "heading-7"
+            "heading-8"
+            "heading-9"
+            "heading-10"
+            "heading-11"
+            "heading-12";
+        grid-template-columns: 0.25fr 1fr;
+        width: 90%;
+        
+    }
+
+    .glossary-table .heading:nth-child(3n),
+    .glossary-table .source:nth-child(1n) {
+        margin-bottom: 1em;
+    }
+
+    .glossary-table .heading-4,
+    .glossary-table .heading-5,
+    .glossary-table .heading-6,
+    .glossary-table .heading-7,
+    .glossary-table .heading-8,
+    .glossary-table .heading-9,
+    .glossary-table .heading-10,
+    .glossary-table .heading-11,
+    .glossary-table .heading-12 {
+        display: flex;
+    }
+
     /* Header Margins */
     .site-main h1 { margin: 0.5em 0.75em; }
     .site-main h2 { margin: 0.5em 1em; }
@@ -731,6 +829,43 @@ body {
     .site-main .article .about-author article .author-description {
         grid-area: description;
         margin: 1em;
+    }
+
+    /* Grid Glossary Table */
+    .glossary-table {
+        grid-template-areas: 
+            "heading-1"
+            "heading-2"
+            "heading-3"
+            "heading-4"
+            "heading-5"
+            "heading-6"
+            "heading-7"
+            "heading-8"
+            "heading-9"
+            "heading-10"
+            "heading-11"
+            "heading-12";
+        grid-template-columns: 0.25fr 1fr;
+        width: 90%;
+        
+    }
+
+    .glossary-table .heading:nth-child(3n),
+    .glossary-table .source:nth-child(1n) {
+        margin-bottom: 1em;
+    }
+
+    .glossary-table .heading-4,
+    .glossary-table .heading-5,
+    .glossary-table .heading-6,
+    .glossary-table .heading-7,
+    .glossary-table .heading-8,
+    .glossary-table .heading-9,
+    .glossary-table .heading-10,
+    .glossary-table .heading-11,
+    .glossary-table .heading-12 {
+        display: flex;
     }
 
     /* Header Margins */
@@ -907,6 +1042,43 @@ body {
         margin: 1em;
     }
 
+    /* Grid Glossary Table */
+    .glossary-table {
+        grid-template-areas: 
+            "heading-1"
+            "heading-2"
+            "heading-3"
+            "heading-4"
+            "heading-5"
+            "heading-6"
+            "heading-7"
+            "heading-8"
+            "heading-9"
+            "heading-10"
+            "heading-11"
+            "heading-12";
+        grid-template-columns: 0.25fr 1fr;
+        width: 90%;
+        
+    }
+
+    .glossary-table .heading:nth-child(3n),
+    .glossary-table .source:nth-child(1n) {
+        margin-bottom: 1em;
+    }
+
+    .glossary-table .heading-4,
+    .glossary-table .heading-5,
+    .glossary-table .heading-6,
+    .glossary-table .heading-7,
+    .glossary-table .heading-8,
+    .glossary-table .heading-9,
+    .glossary-table .heading-10,
+    .glossary-table .heading-11,
+    .glossary-table .heading-12 {
+        display: flex;
+    }
+
     /* Header Margins */
     .site-main h1 { margin: 0.5em 0.75em; }
     .site-main h2 { margin: 0.5em 1em; }
@@ -940,6 +1112,7 @@ body {
         margin-left: 1em;
         text-decoration: none;
     }
+
     .site-header .search-button {
         display: block;
         position: relative;
@@ -1031,6 +1204,43 @@ body {
     
     .site-main .article .about-author article .author-description {
         grid-area: description;
+    }
+
+    /* Grid Glossary Table */
+    .glossary-table {
+        grid-template-areas: 
+            "heading-1"
+            "heading-2"
+            "heading-3"
+            "heading-4"
+            "heading-5"
+            "heading-6"
+            "heading-7"
+            "heading-8"
+            "heading-9"
+            "heading-10"
+            "heading-11"
+            "heading-12";
+        grid-template-columns: 0.25fr 1fr;
+        width: 90%;
+        
+    }
+
+    .glossary-table .heading:nth-child(3n),
+    .glossary-table .source:nth-child(1n) {
+        margin-bottom: 1em;
+    }
+
+    .glossary-table .heading-4,
+    .glossary-table .heading-5,
+    .glossary-table .heading-6,
+    .glossary-table .heading-7,
+    .glossary-table .heading-8,
+    .glossary-table .heading-9,
+    .glossary-table .heading-10,
+    .glossary-table .heading-11,
+    .glossary-table .heading-12 {
+        display: flex;
     }
 
     /* Header Margins */
