@@ -1,9 +1,9 @@
-/* Import Fonts */
+/* Import Fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 @font-face {
-    /* Cantebury font from https://www.1001fonts.com/canterbury-font.html. */
+    /* Canterbury font from https://www.1001fonts.com/canterbury-font.html. */
     font-family: Canterbury;
     src: url('../fonts/Canterbury.ttf');
 }
@@ -17,6 +17,6 @@
     font-family: 'Canterbury', 'Times New Roman', Times, serif;
 }
 
-.glossary-table code, .glossary-table .code-block {
+.site-main .glossary-table code, .site-main .glossary-table .code-block {
     font-family: 'Source Code Pro', monospace;
 }
