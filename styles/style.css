@@ -375,6 +375,14 @@ body {
     font-size: 0.8em;
 }
 
+.site-main .glossary-table .definition p {
+    margin: 0 0 0.6em;
+}
+
+.site-main .glossary-table .definition p:last-child {
+    margin-bottom: 0;
+}
+
 .site-main .glossary-table code {
     background-color: black;
     color: white;
@@ -388,7 +396,7 @@ body {
     border-radius: 0.4em;
     width: auto;
     padding: 0.8em;
-    margin-top: 0.5em;
+    margin: 0.6em 0 0.6em;
 }
 
 /* Cards */
