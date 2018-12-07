@@ -24,10 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    /* height: 6em; */
     height: 7.5em;
-    /* justify-items: center;
-    align-items: center; */
 }
 
 .site-header .menu-button, .site-header .search-button {
@@ -44,8 +41,6 @@ body {
 .site-header .search-box {
     justify-self: center;
     align-self: center;
-    /* position: fixed; */
-    /* margin-top: 1em; */
     margin-top: 1em;
 }
 
@@ -72,8 +67,6 @@ body {
     order: 2;
     z-index: 1;
     background-color: whitesmoke;
-    /* border-top: 2px solid black;
-    border-bottom: 2px solid black; */
     border-top: 1.5px solid black;
     box-shadow: 0 0 0.5em 0 black;
     overflow: hidden;
@@ -87,9 +80,7 @@ body {
 }
 
 .site-nav ul li {
-    /*background-color: blue;*/
     padding: 1em;
-    /* border-right: 2px solid black; */
 }
 
 .site-nav ul li:last-child { 
@@ -222,7 +213,6 @@ body {
     overflow: hidden;
     margin: 2em 0 2em 0;
     align-self: center;
-    /* border: 1px solid black; */
     box-shadow: 0 0 0.5em 0 black;
     display: flex;
     flex-direction: column;
@@ -234,12 +224,9 @@ body {
     padding: 1em;
     width: 100%;
     background-color: black;
-    /* border-bottom: 1px solid black; */
 }
 
 .site-main .article .about-author article {
-    /* display: flex;
-    flex-direction: row; */
     display: grid;
     grid-template-areas:
         "image name"
@@ -1162,11 +1149,3 @@ body {
     .site-main h5 { margin: 0.5em 1.8em; }
     .site-main h6 { margin: 0.5em 2.2em; }
 }
-
-/* @media all and (min-width: 769px) and (max-width: 1025px) {
-    .card-wrapper .card img {
-        width: 260px;
-        height: 146.25px;
-        align-self: center;
-    }
-} */
