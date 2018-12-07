@@ -123,12 +123,12 @@ body {
     flex-direction: column;
 }
 
+/* Site Main - Headings*/
 .site-main h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0.25em;
     border-bottom: 2px solid black;
 }
 
-/* Site Main - Headings*/
 .site-main h1 {
     margin: 0.5em 1.5em;
 }
@@ -153,6 +153,11 @@ body {
     margin: 0.5em 4.3em;
 }
 
+/* Site Main - Paragraph */
+.site-main p {
+    color: black;
+    margin: 0 3em 0.6em 3em;
+}
 
 /* Site Main - Article */
 .site-main .article {
@@ -578,6 +583,11 @@ body {
     .site-main .card-wrapper .card img { width: 240px; height: 135px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
 
+    /* Site Main - Paragraph */
+    .site-main p {
+        margin: 0 1.4em 0.6em 1.4em;
+    }
+
     /* Site Main - Article */
     .site-main .article .article-h1 { order: 2; }
     .site-main .article .article-h3 { order: 3; }
@@ -743,6 +753,11 @@ body {
     .site-main .card-wrapper .card img { width: 280px; height: 157.5px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
 
+    /* Site Main - Paragraph */
+    .site-main p {
+        margin: 0 1.4em 0.6em 1.4em;
+    }
+
     /* Site Main - Article */
     .site-main .article .article-h1 { order: 2; }
     .site-main .article .article-h3 { order: 3; }
@@ -906,6 +921,11 @@ body {
     }
     .site-main .card-wrapper .card img { width: 320px; height: 180px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
+
+    /* Site Main - Paragraph */
+    .site-main p {
+        margin: 0 1.4em 0.6em 1.4em;
+    }
 
     /* Site Main - Article */
     .site-main .article .article-h1 { order: 2; }
@@ -1075,6 +1095,11 @@ body {
     .site-main .card-wrapper .card:last-child { display: none; }
     .site-main .card-wrapper .card img { width: 280px; height: 157.5px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
+
+    /* Site Main - Paragraph */
+    .site-main p {
+        margin: 0 1.4em 0.6em 1.4em;
+    }
 
     /* Site Main - Article */
     .site-main .article .article-paragraph { margin: 0.6em 1.5em; }
