@@ -9,6 +9,7 @@
 body {
     background-color: white;
     height: 100%;
+    width: 100%;
 }
 
 /* Define site-wide Flexbox layout. */
@@ -234,7 +235,7 @@ body {
 }
 
 .site-main .article .about-author article .author-image {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 120px;
     height: 120px;
     margin: 1em;
@@ -342,6 +343,36 @@ body {
     display: none;
 }
 
+.site-main .glossary-table .heading-13 {
+    grid-area: heading-13;
+    display: none;
+}
+
+.site-main .glossary-table .heading-14 {
+    grid-area: heading-14;
+    display: none;
+}
+
+.site-main .glossary-table .heading-15 {
+    grid-area: heading-15;
+    display: none;
+}
+
+.site-main .glossary-table .heading-16 {
+    grid-area: heading-16;
+    display: none;
+}
+
+.site-main .glossary-table .heading-17 {
+    grid-area: heading-17;
+    display: none;
+}
+
+.site-main .glossary-table .heading-18 {
+    grid-area: heading-18;
+    display: none;
+}
+
 .site-main .glossary-table .term,
 .site-main .glossary-table .source {
     display: flex;
@@ -370,6 +401,15 @@ body {
     margin-bottom: 0;
 }
 
+.site-main .glossary-table .definition a {
+    color: blue;
+    text-decoration: none;
+}
+
+.site-main .glossary-table .definition a:hover {
+    text-decoration: underline;
+}
+
 .site-main .glossary-table code {
     background-color: black;
     color: white;
@@ -384,6 +424,20 @@ body {
     width: auto;
     padding: 0.8em;
     margin: 0.6em 0 0.6em;
+}
+
+.site-main .glossary-table .source a {
+    margin-bottom: 0.75em;
+    text-decoration: none;
+    color: blue;
+}
+
+.site-main .glossary-table .source a:last-child {
+    margin-bottom: 0;
+}
+
+.site-main .glossary-table .source a:hover {
+    text-decoration: underline;
 }
 
 /* Cards */
@@ -625,7 +679,13 @@ body {
             "heading-9"
             "heading-10"
             "heading-11"
-            "heading-12";
+            "heading-12"
+            "heading-13"
+            "heading-14"
+            "heading-15"
+            "heading-16"
+            "heading-17"
+            "heading-18";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -644,9 +704,20 @@ body {
     .site-main .glossary-table .heading-9,
     .site-main .glossary-table .heading-10,
     .site-main .glossary-table .heading-11,
-    .site-main .glossary-table .heading-12 {
+    .site-main .glossary-table .heading-12,
+    .site-main .glossary-table .heading-13,
+    .site-main .glossary-table .heading-14,
+    .site-main .glossary-table .heading-15,
+    .site-main .glossary-table .heading-16,
+    .site-main .glossary-table .heading-17,
+    .site-main .glossary-table .heading-18 {
         display: flex;
     } 
+    
+    /* Site Footer */
+    .site-footer {
+        z-index: 0;
+    }
 
     /* Header Margins */
     .site-main h1 { margin: 0.5em 0.75em; }
@@ -795,7 +866,13 @@ body {
             "heading-9"
             "heading-10"
             "heading-11"
-            "heading-12";
+            "heading-12"
+            "heading-13"
+            "heading-14"
+            "heading-15"
+            "heading-16"
+            "heading-17"
+            "heading-18";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -814,8 +891,19 @@ body {
     .site-main .glossary-table .heading-9,
     .site-main .glossary-table .heading-10,
     .site-main .glossary-table .heading-11,
-    .site-main .glossary-table .heading-12 {
+    .site-main .glossary-table .heading-12,
+    .site-main .glossary-table .heading-13,
+    .site-main .glossary-table .heading-14,
+    .site-main .glossary-table .heading-15,
+    .site-main .glossary-table .heading-16,
+    .site-main .glossary-table .heading-17,
+    .site-main .glossary-table .heading-18 {
         display: flex;
+    }
+
+    /* Site Footer */
+    .site-footer {
+        z-index: 0;
     }
 
     /* Header Margins */
@@ -965,7 +1053,13 @@ body {
             "heading-9"
             "heading-10"
             "heading-11"
-            "heading-12";
+            "heading-12"
+            "heading-13"
+            "heading-14"
+            "heading-15"
+            "heading-16"
+            "heading-17"
+            "heading-18";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -984,8 +1078,19 @@ body {
     .site-main .glossary-table .heading-9,
     .site-main .glossary-table .heading-10,
     .site-main .glossary-table .heading-11,
-    .site-main .glossary-table .heading-12 {
+    .site-main .glossary-table .heading-12,
+    .site-main .glossary-table .heading-13,
+    .site-main .glossary-table .heading-14,
+    .site-main .glossary-table .heading-15,
+    .site-main .glossary-table .heading-16,
+    .site-main .glossary-table .heading-17,
+    .site-main .glossary-table .heading-18 {
         display: flex;
+    }
+
+    /* Site Footer */
+    .site-footer {
+        z-index: 0;
     }
 
     /* Header Margins */
@@ -1118,7 +1223,13 @@ body {
             "heading-9"
             "heading-10"
             "heading-11"
-            "heading-12";
+            "heading-12"
+            "heading-13"
+            "heading-14"
+            "heading-15"
+            "heading-16"
+            "heading-17"
+            "heading-18";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -1137,8 +1248,19 @@ body {
     .site-main .glossary-table .heading-9,
     .site-main .glossary-table .heading-10,
     .site-main .glossary-table .heading-11,
-    .site-main .glossary-table .heading-12 {
+    .site-main .glossary-table .heading-12,
+    .site-main .glossary-table .heading-13,
+    .site-main .glossary-table .heading-14,
+    .site-main .glossary-table .heading-15,
+    .site-main .glossary-table .heading-16,
+    .site-main .glossary-table .heading-17,
+    .site-main .glossary-table .heading-18 {
         display: flex;
+    }
+
+    /* Site Footer */
+    .site-footer {
+        z-index: 0;
     }
 
     /* Header Margins */
