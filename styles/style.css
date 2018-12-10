@@ -543,7 +543,7 @@ body {
 
 /* Media Queries */
 /* iPhone 5/SE */
-@media all and (min-width: 0px) and (max-width: 321px) {
+@media all and (max-device-width: 320px) and (max-device-height: 480px) and (orientation: portrait)/*(min-width: 0px) and (max-width: 321px)*/ {
     /* Site Header */
     .site-header {
         order: 2;
