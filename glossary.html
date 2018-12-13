@@ -4,11 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Newspaper - Glossary</title>
+        <!-- Website Stylesheets -->
         <link href="styles/style.css" type="text/css" rel="stylesheet">
         <link href="styles/fonts.css" type="text/css" rel="stylesheet">
+        <!-- Font Awesome (https://fontawesome.com/) -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
     <body class="flex">
+        <!-- Site Header -->
         <header class="site-header">
             <a class="menu-button" href="index-nav.html"><i class="fas fa-bars"></i></a>
             <a href="index.html"><h1>Newspaper</h1></a>
@@ -17,6 +20,8 @@
             </div>
             <a class="search-button" href="index-search.html"><i class="fas fa-search"></i></a>
         </header>
+
+        <!-- Site Navigation Bar -->
         <nav class="site-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -26,9 +31,10 @@
                 <li><a href="tutorials.html">Tutorials</a></li>
             </ul>
         </nav>
+
+        <!-- Site Main -->
         <main class="site-main">
-            <h2>Glossary</h2>
-            
+            <h2>Glossary</h2>            
             <!-- Glossary Table -->
             <div class="glossary-table">
                 <!-- Table Headings -->
@@ -102,6 +108,26 @@
                 <div class="heading heading-21">
                     Source(s)
                 </div>
+                <!-- Front End Developer Headings -->
+                <div class="heading heading-22">
+                    Term
+                </div>
+                <div class="heading heading-23">
+                    Definition
+                </div>
+                <div class="heading heading-24">
+                    Source(s)
+                </div>
+                <!-- Back End Developer Headings -->
+                <div class="heading heading-25">
+                    Term
+                </div>
+                <div class="heading heading-26">
+                    Definition
+                </div>
+                <div class="heading heading-27">
+                    Source(s)
+                </div>
 
                 <!-- Table Content -->
                 <!-- HTML -->
@@ -138,6 +164,7 @@
                 <div class="source">
                     <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">Mozilla Developer Network</a>   
                 </div>
+
                 <!-- CSS -->
                 <div class="term">
                     <p>CSS</p>
@@ -165,6 +192,7 @@
                 <div class="source">
                     <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS">Mozilla Developer Network</a>   
                 </div>
+                
                 <!-- JavaScript -->
                 <div class="term">
                     <p>JavaScript</p>
@@ -177,6 +205,7 @@
                 <div class="source">
                     <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">Mozilla Developer Network</a>   
                 </div>
+
                 <!-- Stylesheet -->
                 <div class="term">
                     <p>Stylesheet</p>
@@ -195,7 +224,8 @@
                 </div> 
                 <div class="source">
                     <a href="#">Link</a>   
-                </div>            
+                </div>    
+
                 <!-- Directory -->
                 <div class="term">
                     <p>Directory</p>
@@ -208,6 +238,7 @@
                 <div class="source">
                     <a href="#">Link</a>
                 </div>
+
                 <!-- IDE -->
                 <div class="term">
                     <p>IDE</p>
@@ -228,6 +259,7 @@
                     <a href="https://www.jetbrains.com/idea/">JetBrains IntellJ IDEA</a>
                     <a href="http://www.codeblocks.org/">Code::Blocks</a>
                 </div>
+
                 <!-- Git -->
                 <div class="term">
                     <p>Git</p>
@@ -241,7 +273,7 @@
 
                     <p>Below, I have included some examples of how you can use Git:</p>
 
-                    <h3>Creating a repository</h3> 
+                    <h3>Creating a new repository</h3> 
                     <div class="code-block">
                         $ mkdir webdev-project<br>
                         $ cd webdev-project<br>
@@ -249,7 +281,7 @@
 
                     </div>
 
-                    <h3>Cloning a repository</h3>
+                    <h3>Cloning an existing repository</h3>
                     <div class="code-block">
                         $ mkdir webdev-project<br>
                         $ cd webdev-project<br>
@@ -258,7 +290,14 @@
 
                     <h3>Comitting files</h3>
                     <div class="code-block">
-                        $
+                        $ git add index.html<br>
+                        $ git add styles/style.css<br>
+                        $ git commit
+                    </div>
+
+                    <h3>Pushing files to a repository</h3>
+                    <div class="code-block">
+                        $ git push
                     </div>
                 </div>
                 <div class="source">
@@ -267,8 +306,32 @@
                     <a href="https://github.com/">GitHub</a>
                     <a href="https://about.gitlab.com/">GitLab</a>
                 </div>
+
+                <!-- Front End Developer -->
+                <div class="term">
+                    <p>Front End Developer</p>
+                </div>
+                <div class="definition">
+                    <p>A <strong>Front End Developer</strong>...</p>
+                </div>
+                <div class="source">
+                    <a href="#">Link</a>
+                </div>
+
+                <!-- Back End Developer -->
+                <div class="term">
+                    <p>Back End Developer</p>
+                </div>
+                <div class="definition">
+                    <p>A <strong>Back End Developer</strong>...</p>
+                </div>
+                <div class="source">
+                    <a href="#">Link</a>
+                </div>
             </div>
         </main>
+
+        <!-- Site Footer -->
         <footer class="site-footer">
             <p>Copyright &copy; 2018 Alexander Turner</p>
         </footer>

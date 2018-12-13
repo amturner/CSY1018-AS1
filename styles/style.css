@@ -388,6 +388,36 @@ body {
     display: none;
 }
 
+.site-main .glossary-table .heading-22 {
+    grid-area: heading-22;
+    display: none;
+}
+
+.site-main .glossary-table .heading-23 {
+    grid-area: heading-23;
+    display: none;
+}
+
+.site-main .glossary-table .heading-24 {
+    grid-area: heading-24;
+    display: none;
+}
+
+.site-main .glossary-table .heading-25 {
+    grid-area: heading-25;
+    display: none;
+}
+
+.site-main .glossary-table .heading-26 {
+    grid-area: heading-26;
+    display: none;
+}
+
+.site-main .glossary-table .heading-27 {
+    grid-area: heading-27;
+    display: none;
+}
+
 .site-main .glossary-table .term,
 .site-main .glossary-table .source {
     display: flex;
@@ -448,7 +478,7 @@ body {
     border-radius: 0.4em;
     width: auto;
     padding: 0.8em;
-    margin: 0.6em 0 0.6em;
+    margin: 0.6em 0 0.6em; 
 }
 
 .site-main .glossary-table .source a {
@@ -713,7 +743,13 @@ body {
             "heading-18"
             "heading-19"
             "heading-20"
-            "heading-21";
+            "heading-21"
+            "heading-22"
+            "heading-23"
+            "heading-24"
+            "heading-25"
+            "heading-26"
+            "heading-27";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -741,7 +777,13 @@ body {
     .site-main .glossary-table .heading-18,
     .site-main .glossary-table .heading-19,
     .site-main .glossary-table .heading-20,
-    .site-main .glossary-table .heading-21 {
+    .site-main .glossary-table .heading-21,
+    .site-main .glossary-table .heading-22,
+    .site-main .glossary-table .heading-23,
+    .site-main .glossary-table .heading-24,
+    .site-main .glossary-table .heading-25,
+    .site-main .glossary-table .heading-26,
+    .site-main .glossary-table .heading-27 {
         display: flex;
     } 
     
@@ -906,7 +948,13 @@ body {
             "heading-18"
             "heading-19"
             "heading-20"
-            "heading-21";
+            "heading-21"
+            "heading-22"
+            "heading-23"
+            "heading-24"
+            "heading-25"
+            "heading-26"
+            "heading-27";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -934,7 +982,13 @@ body {
     .site-main .glossary-table .heading-18,
     .site-main .glossary-table .heading-19,
     .site-main .glossary-table .heading-20,
-    .site-main .glossary-table .heading-21 {
+    .site-main .glossary-table .heading-21,
+    .site-main .glossary-table .heading-22,
+    .site-main .glossary-table .heading-23,
+    .site-main .glossary-table .heading-24,
+    .site-main .glossary-table .heading-25,
+    .site-main .glossary-table .heading-26,
+    .site-main .glossary-table .heading-27 {
         display: flex;
     }
 
@@ -1099,7 +1153,13 @@ body {
             "heading-18"
             "heading-19"
             "heading-20"
-            "heading-21";
+            "heading-21"
+            "heading-22"
+            "heading-23"
+            "heading-24"
+            "heading-25"
+            "heading-26"
+            "heading-27";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -1127,7 +1187,13 @@ body {
     .site-main .glossary-table .heading-18,
     .site-main .glossary-table .heading-19,
     .site-main .glossary-table .heading-20,
-    .site-main .glossary-table .heading-21 {
+    .site-main .glossary-table .heading-21,
+    .site-main .glossary-table .heading-22,
+    .site-main .glossary-table .heading-23,
+    .site-main .glossary-table .heading-24,
+    .site-main .glossary-table .heading-25,
+    .site-main .glossary-table .heading-26,
+    .site-main .glossary-table .heading-27 {
         display: flex;
     }
 
@@ -1275,7 +1341,13 @@ body {
             "heading-18"
             "heading-19"
             "heading-20"
-            "heading-21";
+            "heading-21"
+            "heading-22"
+            "heading-23"
+            "heading-24"
+            "heading-25"
+            "heading-26"
+            "heading-27";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -1303,7 +1375,13 @@ body {
     .site-main .glossary-table .heading-18,
     .site-main .glossary-table .heading-19,
     .site-main .glossary-table .heading-20,
-    .site-main .glossary-table .heading-21 {
+    .site-main .glossary-table .heading-21,
+    .site-main .glossary-table .heading-22,
+    .site-main .glossary-table .heading-23,
+    .site-main .glossary-table .heading-24,
+    .site-main .glossary-table .heading-25,
+    .site-main .glossary-table .heading-26,
+    .site-main .glossary-table .heading-27 {
         display: flex;
     }
 
