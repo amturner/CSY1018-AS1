@@ -593,7 +593,12 @@ body {
     align-self: center;
     text-decoration: none;
     color: white;
-    margin: 1em;
+    margin: 0.25em;
+}
+
+.site-footer .social-icon {
+    font-size: 3em;
+    margin-bottom: 0.25em;
 }
 
 /* Media Queries */
