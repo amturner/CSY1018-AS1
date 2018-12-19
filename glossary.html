@@ -38,17 +38,17 @@
             <!-- Glossary Table -->
             <div class="glossary-table">
                 <!-- Table Headings -->
-                <!-- HTML Headings -->
+                <!-- HTTP Headings -->
                 <div class="heading heading-1">
                     Term
                 </div>
                 <div class="heading heading-2">
-                    Defintion
+                    Definition
                 </div>
                 <div class="heading heading-3">
                     Source(s)
                 </div>
-                <!-- CSS Headings -->
+                <!-- HTML Headings -->
                 <div class="heading heading-4">
                     Term
                 </div>
@@ -58,7 +58,7 @@
                 <div class="heading heading-6">
                     Source(s)
                 </div>
-                <!-- JavaScript Headings -->
+                <!-- CSS Headings -->
                 <div class="heading heading-7">
                     Term
                 </div>
@@ -68,7 +68,7 @@
                 <div class="heading heading-9">
                     Source(s)
                 </div>
-                <!-- Stylesheet Headings -->
+                <!-- JavaScript Headings -->
                 <div class="heading heading-10">
                     Term
                 </div>
@@ -78,7 +78,7 @@
                 <div class="heading heading-12">
                     Source(s)
                 </div>
-                <!-- Directory Headings -->
+                <!-- Stylesheet Headings -->
                 <div class="heading heading-13">
                     Term
                 </div>
@@ -88,17 +88,17 @@
                 <div class="heading heading-15">
                     Source(s)
                 </div>
-                <!-- IDE Headings -->
+                <!-- Directory Headings -->
                 <div class="heading heading-16">
                     Term
                 </div>
                 <div class="heading heading-17">
-                    Definition
+                    Defintion
                 </div>
                 <div class="heading heading-18">
                     Source(s)
                 </div>
-                <!-- Git Headings -->
+                <!-- IDE Headings -->
                 <div class="heading heading-19">
                     Term
                 </div>
@@ -108,7 +108,7 @@
                 <div class="heading heading-21">
                     Source(s)
                 </div>
-                <!-- Front End Developer Headings -->
+                <!-- Git Headings -->
                 <div class="heading heading-22">
                     Term
                 </div>
@@ -118,7 +118,7 @@
                 <div class="heading heading-24">
                     Source(s)
                 </div>
-                <!-- Back End Developer Headings -->
+                <!-- Front End Developer Headings -->
                 <div class="heading heading-25">
                     Term
                 </div>
@@ -128,10 +128,42 @@
                 <div class="heading heading-27">
                     Source(s)
                 </div>
+                <!-- Back End Developer Headings -->
+                <div class="heading heading-28">
+                    Term
+                </div>
+                <div class="heading heading-29">
+                    Definition
+                </div>
+                <div class="heading heading-30">
+                    Source(s)
+                </div>
+
+                <!-- Full Stack Developer Headings -->
+                <div class="heading heading-31">
+                    Term
+                </div>
+                <div class="heading heading-32">
+                    Definition
+                </div>
+                <div class="heading heading-33">
+                    Source(s)
+                </div>                
 
                 <!-- Table Content -->
+                <!-- HTTP -->
+                <div id="http" class="term">
+                    <p>HTTP</p>
+                </div>
+                <div class="definition">
+                    <p>The <strong>HyperText Transfer Protocol (HTTP)</strong> is a...</p>
+                </div>
+                <div class="source">
+                    <a href="#">Link</a>
+                </div>
+
                 <!-- HTML -->
-                <div class="term">
+                <div id="html" class="term">
                     <p>HTML</p>
                 </div>
                 <div class="definition">
@@ -166,7 +198,7 @@
                 </div>
 
                 <!-- CSS -->
-                <div class="term">
+                <div id="css" class="term">
                     <p>CSS</p>
                 </div>
                 <div class="definition">
@@ -194,7 +226,7 @@
                 </div>
                 
                 <!-- JavaScript -->
-                <div class="term">
+                <div id="javascript" class="term">
                     <p>JavaScript</p>
                 </div>
                 <div class="definition">
@@ -207,7 +239,7 @@
                 </div>
 
                 <!-- Stylesheet -->
-                <div class="term">
+                <div id="stylesheet" class="term">
                     <p>Stylesheet</p>
                 </div>
                 <div class="definition">
@@ -227,7 +259,7 @@
                 </div>    
 
                 <!-- Directory -->
-                <div class="term">
+                <div id="directory" class="term">
                     <p>Directory</p>
                 </div>
                 <div class="definition">
@@ -240,7 +272,7 @@
                 </div>
 
                 <!-- IDE -->
-                <div class="term">
+                <div id="ide" class="term">
                     <p>IDE</p>
                 </div>
                 <div class="definition">
@@ -261,7 +293,7 @@
                 </div>
 
                 <!-- Git -->
-                <div class="term">
+                <div id="git" class="term">
                     <p>Git</p>
                 </div>
                 <div class="definition">
@@ -285,7 +317,7 @@
                     <div class="code-block">
                         $ mkdir webdev-project<br>
                         $ cd webdev-project<br>
-                        $ git clone https://github.com/User12345/repository.git
+                        $ git clone https://github.com/User/Repo.git
                     </div>
 
                     <h3>Comitting files</h3>
@@ -308,7 +340,7 @@
                 </div>
 
                 <!-- Front End Developer -->
-                <div class="term">
+                <div id="frontend" class="term">
                     <p>Front End Developer</p>
                 </div>
                 <div class="definition">
@@ -317,24 +349,24 @@
                     <p>Whilst Front End Developers do produce interfaces that users can interact with, Front End Developers are not usually concerned with the overall design of a website. Instead, a Front End Developer typically only translates designs, which are usually made by a Web Designer, and turns them into an actual website using languages such as HTML, CSS and JavaScript.</p>
                 </div>
                 <div class="source">
-                    <a href="#">Link</a>
+                    <a href="https://www.invensis.net/blog/it/difference-between-front-end-and-back-end-development/">Invensis</a>
                 </div>
 
                 <!-- Back End Developer -->
-                <div class="term">
+                <div id="backend" class="term">
                     <p>Back End Developer</p>
                 </div>
                 <div class="definition">
                     <p>A <strong>Back End Developer</strong> is a developer that is primarily concerned with developing the parts of an application, website or system that a user doesn't typically interact with. Essentially, unlike a Front End Developer, which translates designs produced for an application, website or system into working, user-facing code, a Back End Developer, produces the code that is responsible for carrying out the functions executed by a user, such as processing a transaction or booking a reservation at a restaurant.</p>
 
-                    <p></p>
+                    <p>In regards to Web Development, Back End Developers typically use languages such as <strong>SQL</strong>, <strong>PHP</strong>, <strong>Python</strong> and <strong>ASP.NET</strong></p>
                 </div>
                 <div class="source">
-                    <a href="#">Link</a>
+                    <a href="https://www.invensis.net/blog/it/difference-between-front-end-and-back-end-development/">Invensis</a>
                 </div>
 
                 <!-- Full Stack Developer -->
-                <div class="term">
+                <div id="fullstack" class="term">
                     <p>Full Stack Developer</p>
                 </div>
                 <div class="definition">

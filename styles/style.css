@@ -200,14 +200,62 @@ body {
 }
 
 .site-main .article .article-paragraph {
-    order: 5;
     margin: 0.6em 6em;
     line-height: 1.5em;
 }
 
+.site-main .article .paragraph-h3 {
+    border: none;
+    margin: 0 5em;
+}
+
+.site-main .article .p-heading-1 {
+    order: 5;
+}
+
+.site-main .article .paragraph-1 {
+    order: 6;
+}
+
+.site-main .article .paragraph-2 {
+    order: 7;
+}
+
+.site-main .article .paragraph-3 {
+    order: 8;
+}
+
+.site-main .article .paragraph-4 {
+    order: 9;
+}
+
+.site-main .article .paragraph-5 {
+    order: 10;
+}
+
+.site-main .article .p-heading-2 {
+    order: 11;
+}
+
+.site-main .article .paragraph-6 {
+    order: 12;
+}
+
+.site-main .article .paragraph-7 {
+    order: 13;
+}
+
+.site-main .article .p-heading-3 {
+    order: 14;
+}
+
+.site-main .article .paragraph-8 {
+    order: 15;
+}
+
 /* Site Main - Article - About Author */
 .site-main .article .about-author {
-    order: 6;
+    order: 16;
     background-color: whitesmoke;
     width: 75%;
     height: 100%;
@@ -415,6 +463,36 @@ body {
 
 .site-main .glossary-table .heading-27 {
     grid-area: heading-27;
+    display: none;
+}
+
+.site-main .glossary-table .heading-28 {
+    grid-area: heading-28;
+    display: none;
+}
+
+.site-main .glossary-table .heading-29 {
+    grid-area: heading-29;
+    display: none;
+}
+
+.site-main .glossary-table .heading-30 {
+    grid-area: heading-30;
+    display: none;
+}
+
+.site-main .glossary-table .heading-31 {
+    grid-area: heading-31;
+    display: none;
+}
+
+.site-main .glossary-table .heading-32 {
+    grid-area: heading-32;
+    display: none;
+}
+
+.site-main .glossary-table .heading-33 {
+    grid-area: heading-33;
     display: none;
 }
 
@@ -707,7 +785,9 @@ body {
         height: auto;
         margin: 0 0 1em 0;
     }
-
+    .site-main .article .paragraph-h3 {
+        margin: 0.5em 1.3em;         
+    }
     .site-main .article .article-paragraph { margin: 0.6em 1.5em; }
 
     /* Site Main - Article - About Author */
@@ -754,7 +834,13 @@ body {
             "heading-24"
             "heading-25"
             "heading-26"
-            "heading-27";
+            "heading-27"
+            "heading-28"
+            "heading-29"
+            "heading-30"
+            "heading-31"
+            "heading-32"
+            "heading-33";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -788,7 +874,13 @@ body {
     .site-main .glossary-table .heading-24,
     .site-main .glossary-table .heading-25,
     .site-main .glossary-table .heading-26,
-    .site-main .glossary-table .heading-27 {
+    .site-main .glossary-table .heading-27,
+    .site-main .glossary-table .heading-28,
+    .site-main .glossary-table .heading-29,
+    .site-main .glossary-table .heading-30,
+    .site-main .glossary-table .heading-31,
+    .site-main .glossary-table .heading-32,
+    .site-main .glossary-table .heading-33 {
         display: flex;
     } 
     
@@ -912,7 +1004,9 @@ body {
         height: auto;
         margin: 0 0 1em 0;
     }
-
+    .site-main .article .paragraph-h3 {
+        margin: 0.5em 1.3em;         
+    }
     .site-main .article .article-paragraph { margin: 0.6em 1.5em; }
 
     /* Site Main - Article - About Author */
@@ -959,7 +1053,13 @@ body {
             "heading-24"
             "heading-25"
             "heading-26"
-            "heading-27";
+            "heading-27"
+            "heading-28"
+            "heading-29"
+            "heading-30"
+            "heading-31"
+            "heading-32"
+            "heading-33";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -993,7 +1093,13 @@ body {
     .site-main .glossary-table .heading-24,
     .site-main .glossary-table .heading-25,
     .site-main .glossary-table .heading-26,
-    .site-main .glossary-table .heading-27 {
+    .site-main .glossary-table .heading-27
+    .site-main .glossary-table .heading-28,
+    .site-main .glossary-table .heading-29,
+    .site-main .glossary-table .heading-30,
+    .site-main .glossary-table .heading-31,
+    .site-main .glossary-table .heading-32,
+    .site-main .glossary-table .heading-33 {
         display: flex;
     }
 
@@ -1116,7 +1222,9 @@ body {
         height: auto;
         margin: 0 0 1em 0;
     }
-
+    .site-main .article .paragraph-h3 {
+        margin: 0.5em 1.3em;         
+    }
     .site-main .article .article-paragraph { margin: 0.6em 1.5em; }
 
     /* Site Main - Article - About Author */
@@ -1164,7 +1272,13 @@ body {
             "heading-24"
             "heading-25"
             "heading-26"
-            "heading-27";
+            "heading-27"
+            "heading-28"
+            "heading-29"
+            "heading-30"
+            "heading-31"
+            "heading-32"
+            "heading-33";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -1198,7 +1312,13 @@ body {
     .site-main .glossary-table .heading-24,
     .site-main .glossary-table .heading-25,
     .site-main .glossary-table .heading-26,
-    .site-main .glossary-table .heading-27 {
+    .site-main .glossary-table .heading-27,
+    .site-main .glossary-table .heading-28,
+    .site-main .glossary-table .heading-29,
+    .site-main .glossary-table .heading-30,
+    .site-main .glossary-table .heading-31,
+    .site-main .glossary-table .heading-32,
+    .site-main .glossary-table .heading-33 {
         display: flex;
     }
 
@@ -1316,6 +1436,9 @@ body {
     }
 
     /* Site Main - Article */
+    .site-main .article .paragraph-h3 {
+        margin: 0.5em 1.3em;         
+    }
     .site-main .article .article-paragraph { margin: 0.6em 1.5em; }
 
     /* Site Main - Article - About Author */
@@ -1352,7 +1475,13 @@ body {
             "heading-24"
             "heading-25"
             "heading-26"
-            "heading-27";
+            "heading-27"
+            "heading-28"
+            "heading-29"
+            "heading-30"
+            "heading-31"
+            "heading-32"
+            "heading-33";
         grid-template-columns: 0.25fr 1fr;
         width: 90%;
         
@@ -1386,7 +1515,13 @@ body {
     .site-main .glossary-table .heading-24,
     .site-main .glossary-table .heading-25,
     .site-main .glossary-table .heading-26,
-    .site-main .glossary-table .heading-27 {
+    .site-main .glossary-table .heading-27,
+    .site-main .glossary-table .heading-28,
+    .site-main .glossary-table .heading-29,
+    .site-main .glossary-table .heading-30,
+    .site-main .glossary-table .heading-31,
+    .site-main .glossary-table .heading-32,
+    .site-main .glossary-table .heading-33 {
         display: flex;
     }
 
