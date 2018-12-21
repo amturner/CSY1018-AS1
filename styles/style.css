@@ -148,13 +148,14 @@ body {
 }
 
 /* Site Main - Paragraph */
-/* .site-main p {
-    color: black;
-    margin: 0 3em 0.6em;
-} */
+.site-main p:first-of-type {
+    margin-top: 0;
+}
+
 .site-main p {
     color: black;
-    margin: 0 3em 0.6em;
+    margin: 0.6em 3em;
+    line-height: 1.5em;
 }
 
 /* Site Main - Video Wrapper */
@@ -190,6 +191,69 @@ body {
 
 .site-main .video .video-source:visited {
     color: purple;
+}
+
+/* Site Main - Table */
+.site-main .table-heading:first-of-type {
+    width: 75%;
+    align-self: center;
+    border: none;
+    margin-top: 0;
+}
+
+.site-main .table-heading {
+    width: 75%;
+    align-self: center;
+    border: none;
+    margin-top: 1em;
+}
+
+.site-main table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    align-self: center;
+    width: 75%;
+    margin-bottom: 1em;
+}
+
+.site-main table thead {
+    background-color: black;
+    color: white;
+}
+
+.site-main table, .site-main table th, .site-main table td {
+    border: 1px solid black;
+}
+
+.site-main table td ul {
+    margin-left: 1em;
+}
+
+.site-main table .source {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.site-main table .source a {
+    color: blue;
+    text-decoration: none;
+}
+
+.site-main table .source a:hover {
+    text-decoration: underline;
+}
+
+.site-main table .source a:visited {
+    color: purple;
+}
+
+.site-main table thead th, .site-main table tbody td {
+    padding: 1em;
+}
+
+.site-main table tbody {
+    background-color: white;
+    color: black;
 }
 
 /* Site Main - Article */
@@ -921,6 +985,15 @@ body {
         font-size: 0.6em;
     }
 
+    /* Site Main - Table */
+    .site-main .table-heading {
+        width: 90%;
+    }
+
+    .site-main table {
+        width: 90%;
+    }
+
     /* Site Main - Article */
     .site-main .article .article-h1 { order: 2; }
     .site-main .article .article-h3 { order: 3; }
@@ -1182,6 +1255,15 @@ body {
         font-size: 0.7em;
     }
 
+    /* Site Main - Table */
+    .site-main .table-heading {
+        width: 90%;
+    }
+
+    .site-main table {
+        width: 90%;
+    }
+
     /* Site Main - Article */
     .site-main .article .article-h1 { order: 2; }
     .site-main .article .article-h3 { order: 3; }
@@ -1441,6 +1523,15 @@ body {
         font-size: 0.8em;
     }
 
+    /* Site Main - Table */
+    .site-main .table-heading {
+        width: 90%;
+    }
+
+    .site-main table {
+        width: 90%;
+    }
+
     /* Site Main - Article */
     .site-main .article .article-h1 { order: 2; }
     .site-main .article .article-h3 { order: 3; } 
@@ -1695,6 +1786,15 @@ body {
         height: 315px;
         width: 560px;
     }
+
+    /* Site Main - Table */
+    .site-main .table-heading {
+        width: 90%;
+    }
+
+    .site-main table {
+        width: 90%;
+    }    
 
     /* Site Main - Article */
     .site-main .article .paragraph-h3 {
