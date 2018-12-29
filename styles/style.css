@@ -239,7 +239,6 @@ body {
     width: 75%;
     align-self: center;
     border: none;
-    margin-top: 1em;
 }
 
 .site-main table {
@@ -248,6 +247,7 @@ body {
     align-self: center;
     width: 75%;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .site-main table thead {
@@ -729,6 +729,10 @@ body {
     justify-content: center;
 }
 
+.card-wrapper:last-child {
+    margin-bottom: 1em;
+}
+
 .card-wrapper .card {
     display: flex;
     flex-direction: column;
@@ -940,12 +944,18 @@ body {
         margin: 0 auto;
         justify-content: center;
     }
+    .site-main .card-wrapper:last-child { margin-bottom: 1em; }
     .site-main .card-wrapper .card img { width: 240px; height: 135px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
 
     /* Site Main - Paragraph */
     .site-main p {
         margin: 0 1.4em 0.6em 1.4em;
+    }
+
+    /* Site Main - Lists */
+    .site-main ul {
+        margin: 0.6em 4em;
     }
 
     /* Site Main - Video */
@@ -971,12 +981,23 @@ body {
         width: 90%;
     }
 
+    .site-main table th {
+        font-size: 0.75em;
+    }
+
+    .site-main table td {
+        font-size: 0.55em;
+    }
+
     /* Site Main - Article */
     .site-main .article .article-h1 { order: 2; }
     .site-main .article .article-h3 { order: 3; }
     .site-main .article .article-info { order: 4; margin-bottom: 1em; }
     .site-main .article .article-feature-image {
         order: 1;
+    }
+    .site-main .center-heading {
+        text-align: center;
     }
     .site-main .image img {
         width: 100%;
@@ -1198,12 +1219,18 @@ body {
         margin: 0 auto;
         justify-content: center;
     }
+    .site-main .card-wrapper:last-child { margin-bottom: 1em; }
     .site-main .card-wrapper .card img { width: 280px; height: 157.5px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
 
     /* Site Main - Paragraph */
     .site-main p {
         margin: 0 1.4em 0.6em 1.4em;
+    }
+
+    /* Site Main - Lists */
+    .site-main ul {
+        margin: 0.6em 4em;
     }
 
     /* Site Main - Video */
@@ -1230,12 +1257,23 @@ body {
         width: 90%;
     }
 
+    .site-main table th {
+        font-size: 0.8em;
+    }
+
+    .site-main table td {
+        font-size: 0.6em;
+    }
+
     /* Site Main - Article */
     .site-main .article .article-h1 { order: 2; }
     .site-main .article .article-h3 { order: 3; }
     .site-main .article .article-info { order: 4; margin-bottom: 1em; }
     .site-main .article .article-feature-image {
         order: 1;
+    }
+    .site-main .center-heading {
+        text-align: center;
     }
     .site-main .image img {
         width: 100%;
@@ -1455,12 +1493,18 @@ body {
         margin: 0 auto;
         justify-content: center;
     }
+    .site-main .card-wrapper:last-child { margin-bottom: 1em; }
     .site-main .card-wrapper .card img { width: 320px; height: 180px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
 
     /* Site Main - Paragraph */
     .site-main p {
         margin: 0 1.4em 0.6em 1.4em;
+    }
+
+    /* Site Main - Lists */
+    .site-main ul {
+        margin: 0.6em 4em;
     }
 
     /* Site Main - Video */
@@ -1481,10 +1525,18 @@ body {
     /* Site Main - Table */
     .site-main .table-heading {
         width: 90%;
-    }
+    } 
 
     .site-main table {
         width: 90%;
+    }
+
+    .site-main table th {
+        font-size: 0.8em;
+    }
+
+    .site-main table td {
+        font-size: 0.6em;
     }
 
     /* Site Main - Article */
@@ -1493,6 +1545,9 @@ body {
     .site-main .article .article-info { order: 4; margin-bottom: 1em; }
     .site-main .article .article-feature-image {
         order: 1;
+    }
+    .site-main .center-heading {
+        text-align: center;
     }
     .site-main .image img {
         width: 100%;
@@ -1713,7 +1768,7 @@ body {
         justify-content: center;
         flex-flow: row wrap;
     }
-
+    .site-main .card-wrapper:last-child { margin-bottom: 1em; }
     .site-main .card-wrapper .card { width: 45%; }
     .site-main .card-wrapper .card:last-child { display: none; }
     .site-main .card-wrapper .card img { width: 280px; height: 157.5px; align-self: center; }
@@ -1722,6 +1777,11 @@ body {
     /* Site Main - Paragraph */
     .site-main p {
         margin: 0 1.4em 0.6em 1.4em;
+    }
+
+    /* Site Main - Lists */
+    .site-main ul {
+        margin: 0.6em 4em;
     }
 
     /* Site Main - YouTube Video */
@@ -1867,5 +1927,13 @@ body {
         min-height: 100vh;
         margin: 0 0em;
         flex-direction: column;
+    }
+
+    .site-main table colgroup .column-1 {
+        width: 30%;
+    }
+    
+    .site-main table colgroup .column-2 {
+        width: 2%;;
     }
 }
