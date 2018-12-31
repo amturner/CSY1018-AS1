@@ -741,6 +741,7 @@ body {
     margin: 0.5em;
     overflow: hidden;
     box-shadow: 0 0 0.5em 0 black;
+    width: 33.3%;
 }
 
 .card-wrapper .card img {
@@ -757,12 +758,13 @@ body {
 
 .card-wrapper .card p {
     line-height: 1.25em;
-    margin: 0.5em auto 0;
+    margin: 0.5em auto;
     text-align: left;
+    height: 100%;
 }
 
 .card-wrapper .card .button {
-    margin: 0.5em auto 0;
+    margin: 0.5em auto;
     display: block;
     width: 125px;
     text-align: center;
@@ -940,11 +942,12 @@ body {
     .site-main { order: 2; margin: 4em 0 0; z-index: 0;}
     .site-main .card-wrapper {
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         justify-content: center;
     }
     .site-main .card-wrapper:last-child { margin-bottom: 1em; }
+    .site-main .card-wrapper .card { width: 90%; align-self: center; }
     .site-main .card-wrapper .card img { width: 240px; height: 135px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
 
@@ -1215,11 +1218,12 @@ body {
     .site-main { order: 2; margin: 5em 0 0; z-index: 0;}
     .site-main .card-wrapper {
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         justify-content: center;
     }
     .site-main .card-wrapper:last-child { margin-bottom: 1em; }
+    .site-main .card-wrapper .card { width: 90%; align-self: center;}
     .site-main .card-wrapper .card img { width: 280px; height: 157.5px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
 
@@ -1489,11 +1493,12 @@ body {
     .site-main { order: 2; margin: 6em 0 0; z-index: 0;}
     .site-main .card-wrapper {
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         justify-content: center;
     }
     .site-main .card-wrapper:last-child { margin-bottom: 1em; }
+    .site-main .card-wrapper .card { width: 90%; align-self: center;}
     .site-main .card-wrapper .card img { width: 320px; height: 180px; align-self: center; }
     .site-main .card-wrapper .carousel-arrow { display: none; }
 
