@@ -1685,8 +1685,283 @@ body {
     .site-main h6 { margin: 0.5em 2.2em; }
 }
 
+/* Moto G6 Plus */
+@media all and (min-width: 415px) and (max-width: 424px) {
+    /* Site Header */
+    .site-header {
+        order: 1;
+        z-index: 2;
+        box-shadow: 0 0 0.5em 0 black;
+        flex-direction: row;
+        position: fixed;
+        width: 100%;
+        height: 6em;
+        justify-content: space-between;
+    }
+    .site-header a { font-size: 1.2em; }
+    .site-header .menu-button {
+        display: block;
+        position: relative;
+        align-self: center;
+        font-size: 1.8em;
+        color: black;
+        margin-left: 1em;
+        text-decoration: none;
+    }
+    .site-header .search-button {
+        display: block;
+        position: relative;
+        align-self: center;
+        font-size: 1.8em;
+        color: black;
+        margin-right: 1em;
+        text-decoration: none;
+    }
+    .site-header .search-box, .site-nav { display: none; }
+
+    /* Mobile Navigation */
+    .mobile-nav {
+        z-index: 1;
+        display: block;
+        position: fixed;
+        background-color: whitesmoke;
+        margin-top: 6em;
+        height: 100%;
+        width: 8em;
+        box-shadow: 0 0 0.5em 0 black;
+        padding: 1em;
+        overflow: hidden;
+    }
+    .mobile-nav ul { list-style: none; text-align: center; line-height: 3em; }
+    .mobile-nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2em;
+        transition: 250ms;
+    }
+    .mobile-nav ul li a:hover { text-decoration: underline; }
+    .mobile-nav .close-button { font-size: 2em; }
+    
+    /* Mobile Search */
+    .mobile-search {
+        z-index: 1;
+        display: block;
+        position: fixed;
+        width: 100%;
+        background-color: whitesmoke;
+        box-shadow: 0 0 0.5em 0 black;
+        padding: 0.5em;
+        margin-top: 6em;
+        text-align: center;
+    }
+    .mobile-search-box {
+        width: 100%;
+        border: 2px solid black;
+        border-radius: 0.5em;
+        padding: 0.5em;
+        margin-bottom: 0.75em;
+    }
+    .mobile-search .close-button { color: black; font-size: 2em; }
+
+    /* Site Main */
+    .site-main { order: 2; margin: 6em 0 0; z-index: 0;}
+    .site-main .card-wrapper {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .site-main .card-wrapper:last-child { margin-bottom: 1em; }
+    .site-main .card-wrapper .card { width: 90%; align-self: center;}
+    .site-main .card-wrapper .card img { width: 320px; height: 180px; align-self: center; }
+    .site-main .card-wrapper .carousel-arrow { display: none; }
+
+    /* Site Main - Paragraph */
+    .site-main p {
+        margin: 0 1.4em 0.6em 1.4em;
+    }
+
+    /* Site Main - Lists */
+    .site-main ul {
+        margin: 0.6em 4em;
+    }
+
+    /* Site Main - Video */
+    .site-main .video h3 {
+        font-size: 1em;
+    }
+
+    .site-main .video .youtube-video {
+        height: 189px;
+        width: 336px;
+        margin: 0 auto 1em;
+    }
+
+    .site-main .video .video-source {
+        font-size: 0.8em;
+    }
+
+    /* Site Main - Table */
+    .site-main .table-heading {
+        width: 90%;
+    } 
+
+    .site-main table {
+        width: 90%;
+    }
+
+    .site-main table th {
+        font-size: 0.8em;
+    }
+
+    .site-main table td {
+        font-size: 0.6em;
+    }
+
+    /* Site Main - Article */
+    .site-main .article .article-h1 { order: 2; }
+    .site-main .article .article-h3 { order: 3; } 
+    .site-main .article .article-info { order: 4; margin-bottom: 1em; }
+    .site-main .article .article-feature-image {
+        order: 1;
+    }
+    .site-main .center-heading {
+        text-align: center;
+    }
+    .site-main .image img {
+        width: 100%;
+        height: auto;
+        margin: 0 0 1em 0;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    .site-main .article .paragraph-h3:first-of-type { margin-top: 0; }
+    .site-main .article .paragraph-h3 { margin: 1em 1.3em 0; }
+    .site-main .article .article-paragraph { margin: 0.6em 1.5em; }
+
+    /* Site Main - Article - About Author */
+    .site-main .article .about-author { width: 90%; }
+    .site-main .article .about-author article {
+        display: grid;
+        grid-template-areas:
+            "image"
+            "name"
+            "description";
+    }
+    
+    .site-main .article .about-author .author-heading { text-align: center; }
+    .site-main .article .about-author article .author-image { grid-area: image; justify-self: center; }
+    .site-main .article .about-author article .author-name { grid-area: name; justify-self: center; }
+    .site-main .article .about-author article .author-description { grid-area: description; margin: 1em; }
+
+    /* Site Main - Glossary Table */
+    .site-main .glossary-table {
+        grid-template-areas: 
+            "heading-1"
+            "heading-2"
+            "heading-3"
+            "heading-4"
+            "heading-5"
+            "heading-6"
+            "heading-7"
+            "heading-8"
+            "heading-9"
+            "heading-10"
+            "heading-11"
+            "heading-12"
+            "heading-13"
+            "heading-14"
+            "heading-15"
+            "heading-16"
+            "heading-17"
+            "heading-18"
+            "heading-19"
+            "heading-20"
+            "heading-21"
+            "heading-22"
+            "heading-23"
+            "heading-24"
+            "heading-25"
+            "heading-26"
+            "heading-27"
+            "heading-28"
+            "heading-29"
+            "heading-30"
+            "heading-31"
+            "heading-32"
+            "heading-33"
+            "heading-34"
+            "heading-35"
+            "heading-36"
+            "heading-37"
+            "heading-38"
+            "heading-39";
+        grid-template-columns: 0.25fr 1fr;
+        width: 90%;   
+    }
+
+    .site-main .glossary-table .heading:nth-child(3n),
+    .site-main .glossary-table .source:nth-child(1n) {
+        margin-bottom: 1em;
+    }
+
+    .site-main .glossary-table .heading-4,
+    .site-main .glossary-table .heading-5,
+    .site-main .glossary-table .heading-6,
+    .site-main .glossary-table .heading-7,
+    .site-main .glossary-table .heading-8,
+    .site-main .glossary-table .heading-9,
+    .site-main .glossary-table .heading-10,
+    .site-main .glossary-table .heading-11,
+    .site-main .glossary-table .heading-12,
+    .site-main .glossary-table .heading-13,
+    .site-main .glossary-table .heading-14,
+    .site-main .glossary-table .heading-15,
+    .site-main .glossary-table .heading-16,
+    .site-main .glossary-table .heading-17,
+    .site-main .glossary-table .heading-18,
+    .site-main .glossary-table .heading-19,
+    .site-main .glossary-table .heading-20,
+    .site-main .glossary-table .heading-21,
+    .site-main .glossary-table .heading-22,
+    .site-main .glossary-table .heading-23,
+    .site-main .glossary-table .heading-24,
+    .site-main .glossary-table .heading-25,
+    .site-main .glossary-table .heading-26,
+    .site-main .glossary-table .heading-27,
+    .site-main .glossary-table .heading-28,
+    .site-main .glossary-table .heading-29,
+    .site-main .glossary-table .heading-30,
+    .site-main .glossary-table .heading-31,
+    .site-main .glossary-table .heading-32,
+    .site-main .glossary-table .heading-33,
+    .site-main .glossary-table .heading-34,
+    .site-main .glossary-table .heading-35,
+    .site-main .glossary-table .heading-36,
+    .site-main .glossary-table .heading-37,
+    .site-main .glossary-table .heading-38,
+    .site-main .glossary-table .heading-39 {
+        display: flex;
+    }
+
+    /* Site Footer */
+    .site-footer {
+        z-index: 0;
+    }
+
+    /* Header Margins */
+    .site-main h1 { margin: 0.5em 0.75em; }
+    .site-main h2 { margin: 0.5em 1em; }
+    .site-main h3 { margin: 0.5em 1.3em; }
+    .site-main h4 { margin: 0.5em 1.5em; }
+    .site-main h5 { margin: 0.5em 1.8em; }
+    .site-main h6 { margin: 0.5em 2.2em; }
+}
+
 /* iPad */
-@media all and (min-width: 415px) and (max-width: 769px) {
+@media all and (min-width: 424px) and (max-width: 769px) {
     /* Site Header */
     .site-header {
         order: 1;
