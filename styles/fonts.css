@@ -1,22 +1,37 @@
 /* Import Fonts from Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
+/* Canterbury font from https://www.1001fonts.com/canterbury-font.html. */
 @font-face {
-    /* Canterbury font from https://www.1001fonts.com/canterbury-font.html. */
     font-family: Canterbury;
     src: url('../fonts/Canterbury.ttf');
 }
 
 /* Font Styling */
 * {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 .site-header h1 {
     font-family: 'Canterbury', 'Times New Roman', Times, serif;
 }
 
+.site-main h1,
+.site-main h2,
+.site-main h3,
+.site-main h4,
+.site-main h5,
+.site-main h6 {
+    font-family: 'Playfair Display', serif;
+}
+
 .site-main .glossary-table code, .site-main .glossary-table .code-block {
     font-family: 'Source Code Pro', monospace;
+}
+
+.site-main .card-wrapper .card .button {
+    font-family: 'Roboto', sans-serif;
 }

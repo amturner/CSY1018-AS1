@@ -159,7 +159,7 @@ body {
 .site-main p {
     color: black;
     margin: 0.6em 3em;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 
 .site-main p:last-child {
@@ -757,7 +757,7 @@ body {
 }
 
 .card-wrapper .card p {
-    line-height: 1.25em;
+    line-height: 1.4em;
     margin: 0.5em auto;
     text-align: left;
     height: 100%;
