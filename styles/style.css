@@ -1686,7 +1686,7 @@ body {
 }
 
 /* Moto G6 Plus */
-@media all and (min-width: 415px) and (max-width: 424px) {
+@media all and (min-width: 415px) and (max-width: 425px) {
     /* Site Header */
     .site-header {
         order: 1;
@@ -1961,7 +1961,7 @@ body {
 }
 
 /* iPad */
-@media all and (min-width: 424px) and (max-width: 769px) {
+@media all and (min-width: 425px) and (max-width: 769px) {
     /* Site Header */
     .site-header {
         order: 1;
