@@ -39,6 +39,12 @@ body {
     align-self: center;
 }
 
+.site-header .logo img {
+    align-self: center;  
+    height: 1.6em;
+    margin-top: 0.5em;
+}
+
 .site-header .search-box {
     justify-self: center;
     align-self: center;
